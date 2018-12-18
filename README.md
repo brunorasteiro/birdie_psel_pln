@@ -10,9 +10,13 @@ Este programa recebe um arquivo de reviews de produtos como entrada e gera dois 
 ## Execução
 Para executar o programa, basta passar o diretório do arquivo de reviews como parâmetro na execução, caso o diretório não seja informado, o programa irá assumir que o arquivo de reviews está no diretório raiz da execução com o nome de "reviews_test_estag_nlp.txt"
 Exemplos de execução:
-$ python3.5 psel_nlp.py reviews_test_estag_nlp.txt
+```bash
+$ python3 psel_nlp.py reviews_test_estag_nlp.txt
+```
 ou
-$ python3.5 psel_nlp.py
+```bash
+$ python3 psel_nlp.py
+```
 
 ## Referências
 O tagger utilizado para dizer a classe gramátical de cada uma das palavras faz parte da biblioteca [nlpnet](http://nilc.icmc.usp.br/nlpnet/) (Natural Language Processing with neural networks), desenvolvida pelo [NILC](http://www.nilc.icmc.usp.br/nilc/index.php) (Núcleo Interinstitucional de Linguística Computacional)
