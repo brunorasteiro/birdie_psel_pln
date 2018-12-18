@@ -8,7 +8,7 @@ Este programa recebe um arquivo de reviews de produtos como entrada e gera dois 
 * [nlpnet](http://nilc.icmc.usp.br/nlpnet/)
 
 ## Execução
-Para executar o programa, basta passar o diretório do arquivo de reviews como parâmetro na execução, caso o diretório não seja informado, o programa irá assumir que o arquivo de reviews está no diretório raiz da execução com o nome de "reviews_test_estag_nlp.txt". Exemplos de execução:
+Para executar o programa basta passar o diretório do arquivo de reviews como parâmetro na execução, caso o diretório não seja informado o programa irá assumir que o arquivo de reviews está no diretório raiz da execução com o nome de "reviews_test_estag_nlp.txt". Exemplos de execução:
 ```bash
 $ python3 psel_nlp.py reviews_test_estag_nlp.txt
 ```
